@@ -4,10 +4,10 @@ backend:
   media_folder:"images/uploads"
 collections:
 -name: "blog"
-label:"Blog"
-folder:"content/blog"
-create:true
-slug:"{{year}}-{{month}}-{{day}}-{{slug}}"
+ label:"Blog"
+ folder:"content/blog"
+ create:true
+ slug:"{{year}}-{{month}}-{{day}}-{{slug}}"
 fields:
 -{label:"Layout", name:"layout",widget:"hidden",default:"blog"}
 -{label:"Title", name:"title", widget:"string"}
